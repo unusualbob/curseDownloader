@@ -1,0 +1,17 @@
+{
+  "name": "curse-downloader",
+  "version": "0.1.0",
+  "description": "Automatically downloads all mod dependencies for a given curse project manifest.json",
+  "main": "dl.js",
+  "dependencies": {
+    "request": "^2.79.0",
+    "async": "^2.1.5",
+    "progress": "^1.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "unusualbob",
+  "license": "GNU"
+}
