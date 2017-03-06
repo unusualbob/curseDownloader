@@ -14,3 +14,7 @@ npm install
 ```
 node dl.js /path/to/mod/manifest.json
 ```
+
+This downloader will attempt to download all mods to the `/path/to/mod/mods` directory. It will create the `mods` directory if it doesn't already exist. This downloader will also never check for existing files, it will replace any mod in the mods directory if one exists by the same name.
+
+If you think a feature would be useful you can request them via the issues page, but I can't promise anything.
